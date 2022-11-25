@@ -41,13 +41,15 @@ const config = {
                     sidebarPath: require.resolve("./sidebars.js"),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/lilichao/lilichao.github.io/"
+                    editUrl:
+                        "https://github.com/lilichao/lilichao.github.io/blob/main/"
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/lilichao/lilichao.github.io/"
+                    editUrl:
+                        "https://github.com/lilichao/lilichao.github.io/blob/main/"
                 },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css")
@@ -72,8 +74,7 @@ const config = {
                         position: "left",
                         label: "指南"
                     },
-                    { to: "/blog", label: "博客", position: "left" },
-                  
+                    { to: "/blog", label: "博客", position: "left" }
                 ]
             },
             footer: {
